@@ -9,9 +9,11 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import "../globals.css";
 
+// Weight-axis-only variable font (no opsz): the two-axis file is ~75 KB, and it
+// gates the hero LCP on slow connections. Dropping opsz shrinks it noticeably;
+// the optical-size refinement is barely visible at our display sizes.
 const bricolage = Bricolage_Grotesque({
   subsets: ["latin", "latin-ext"],
-  axes: ["opsz"],
   variable: "--font-bricolage",
   display: "swap",
 });
