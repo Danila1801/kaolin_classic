@@ -1,10 +1,10 @@
 import { getTranslations } from "next-intl/server";
+import { Link } from "@/i18n/navigation";
 import LanguageSwitcher from "./LanguageSwitcher";
 
 // Site footer: a deep pine closing surface with cream type. The KVK line and
 // email are translated placeholder strings until the studio is registered and
 // a domain is bought, so swapping them later is a one-line edit per locale.
-// Legal links are added in Task 3 once the legal pages exist.
 export default async function Footer() {
   const t = await getTranslations("footer");
 
@@ -45,6 +45,20 @@ export default async function Footer() {
 
         <div className="mt-12 flex flex-col gap-4 border-t border-cream/20 pt-8 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-sm text-cream/70">{t("rights")}</p>
+          <nav
+            aria-label={t("legal.label")}
+            className="flex flex-wrap gap-x-6 gap-y-2 text-base text-cream/80"
+          >
+            <Link href="/privacy" className="transition-colors hover:text-sand">
+              {t("legal.privacy")}
+            </Link>
+            <Link href="/terms" className="transition-colors hover:text-sand">
+              {t("legal.terms")}
+            </Link>
+            <Link href="/cookies" className="transition-colors hover:text-sand">
+              {t("legal.cookies")}
+            </Link>
+          </nav>
         </div>
       </div>
     </footer>

@@ -2,10 +2,9 @@ import type { MetadataRoute } from "next";
 import { routing } from "@/i18n/routing";
 import { SITE_URL, localeAlternates } from "@/lib/site";
 
-// The home page, once per locale, each entry carrying its hreflang alternates so
-// search engines group the four language versions together. (No legal or other
-// subpaths on the clean site yet; add them here when they land.)
-const PATHS = [""] as const;
+// Every indexable path, once per locale, each entry carrying its hreflang
+// alternates so search engines group the four language versions together.
+const PATHS = ["", "/privacy", "/terms", "/cookies"] as const;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
@@ -13,8 +12,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     routing.locales.map((locale) => ({
       url: `${SITE_URL}/${locale}${path}`,
       lastModified: now,
-      changeFrequency: "monthly" as const,
-      priority: 1,
+      changeFrequency: path === "" ? ("monthly" as const) : ("yearly" as const),
+      priority: path === "" ? 1 : 0.3,
       alternates: { languages: localeAlternates(path) },
     })),
   );

@@ -27,20 +27,51 @@
     "title": "wat we doen",
     "intro": "een website brengt u online. wij voegen ai toe die vragen beantwoordt, uw documenten leest, voorspelt wat er komt en repetitief werk afhandelt.",
     "items": [
-      { "name": "websites", "body": "snelle, meertalige websites die lang meegaan." },
-      { "name": "chatbots & llm-integratie", "body": "assistenten die antwoorden in de taal van uw klant, op basis van wat uw bedrijf weet." },
-      { "name": "documentassistenten", "body": "stel vragen over uw contracten, handleidingen en rapporten. elk antwoord verwijst naar de bron." },
-      { "name": "ml & voorspellende analyse", "body": "voorspellen, scoren en classificeren op uw eigen data." },
-      { "name": "ai-automatisering", "body": "we koppelen uw tools en automatiseren het repetitieve werk ertussen." }
+      {
+        "name": "websites",
+        "body": "snelle, meertalige websites die lang meegaan."
+      },
+      {
+        "name": "chatbots & llm-integratie",
+        "body": "assistenten die antwoorden in de taal van uw klant, op basis van wat uw bedrijf weet."
+      },
+      {
+        "name": "documentassistenten",
+        "body": "stel vragen over uw contracten, handleidingen en rapporten. elk antwoord verwijst naar de bron."
+      },
+      {
+        "name": "ml & voorspellende analyse",
+        "body": "voorspellen, scoren en classificeren op uw eigen data."
+      },
+      {
+        "name": "ai-automatisering",
+        "body": "we koppelen uw tools en automatiseren het repetitieve werk ertussen."
+      }
     ]
   },
   "work": {
     "title": "zie het in het echt",
     "intro": "sites die we hebben gebouwd, plus een demokliniek met een ai-assistent zoals we die aan uw site zouden toevoegen.",
     "items": [
-      { "name": "Riverbend Physiotherapy", "tag": "live ai-assistent", "body": "een demo-kliniekwebsite met een intake-assistent. hij vraagt naar uw klacht, stelt een behandeling voor en legt een eerste bezoek uit.", "cta": "open de live demo", "href": "https://kaolin-demo-clinic.vercel.app" },
-      { "name": "Portativ SRL", "body": "een viertalige website voor een elektro-installatiebedrijf. snel en makkelijk te navigeren.", "cta": "bekijk de site", "href": "https://portativ-srl.vercel.app" },
-      { "name": "Nook", "body": "een rustig webproduct voor het werkende lichaam. we geven om ontwerp en gevoel, niet alleen om code.", "cta": "bekijk de site", "href": "https://nook-liard.vercel.app" }
+      {
+        "name": "Riverbend Physiotherapy",
+        "tag": "live ai-assistent",
+        "body": "een demo-kliniekwebsite met een intake-assistent. hij vraagt naar uw klacht, stelt een behandeling voor en legt een eerste bezoek uit.",
+        "cta": "open de live demo",
+        "href": "https://kaolin-demo-clinic.vercel.app"
+      },
+      {
+        "name": "Portativ SRL",
+        "body": "een viertalige website voor een elektro-installatiebedrijf. snel en makkelijk te navigeren.",
+        "cta": "bekijk de site",
+        "href": "https://portativ-srl.vercel.app"
+      },
+      {
+        "name": "Nook",
+        "body": "een rustig webproduct voor het werkende lichaam. we geven om ontwerp en gevoel, niet alleen om code.",
+        "cta": "bekijk de site",
+        "href": "https://nook-liard.vercel.app"
+      }
     ],
     "note": "de assistent op deze pagina is ook van ons. een live demo van wat we voor u zouden bouwen."
   },
@@ -48,27 +79,78 @@
     "title": "hoe we werken",
     "intro": "vier stappen, van het eerste gesprek tot de lancering. u werkt de hele weg met ons allebei.",
     "items": [
-      { "step": "01", "name": "een gratis gesprek", "body": "we luisteren naar wat u nodig heeft en zeggen of ai past." },
-      { "step": "02", "name": "een afgebakend plan", "body": "een helder plan en een eerlijke prijsrange, voordat iemand zich vastlegt." },
-      { "step": "03", "name": "we bouwen, in het zicht", "body": "u volgt de voortgang op een echte link, geen presentatie achteraf." },
-      { "step": "04", "name": "lanceren & blijven", "body": "we lanceren het, houden het draaiende en blijven bereikbaar. u weet altijd wie het gebouwd heeft." }
+      {
+        "step": "01",
+        "name": "een gratis gesprek",
+        "body": "we luisteren naar wat u nodig heeft en zeggen of ai past."
+      },
+      {
+        "step": "02",
+        "name": "een afgebakend plan",
+        "body": "een helder plan en een eerlijke prijsrange, voordat iemand zich vastlegt."
+      },
+      {
+        "step": "03",
+        "name": "we bouwen, in het zicht",
+        "body": "u volgt de voortgang op een echte link, geen presentatie achteraf."
+      },
+      {
+        "step": "04",
+        "name": "lanceren & blijven",
+        "body": "we lanceren het, houden het draaiende en blijven bereikbaar. u weet altijd wie het gebouwd heeft."
+      }
     ]
   },
   "proof": {
     "title": "wie we zijn",
     "intro": "u praat rechtstreeks met ons. niemand ertussen.",
     "items": [
-      { "name": "Leonid", "role": "de software-helft", "body": "tientallen jaren praktische softwareontwikkeling, echte systemen bouwen en onderhouden." },
-      { "name": "Danila", "role": "de ai-helft", "body": "een derdejaars ai-student in amsterdam, dagelijks bezig met actuele ai-modellen: llm's, rag en automatisering." }
+      {
+        "name": "Leonid",
+        "role": "de software-helft",
+        "body": "tientallen jaren praktische softwareontwikkeling, echte systemen bouwen en onderhouden."
+      },
+      {
+        "name": "Danila",
+        "role": "de ai-helft",
+        "body": "een derdejaars ai-student in amsterdam, dagelijks bezig met actuele ai-modellen: llm's, rag en automatisering."
+      }
     ]
   },
   "pricing": {
     "title": "prijzen",
     "intro": "we noemen geen vaste prijzen. elk project is anders. de eerste stap is een gratis gesprek, en nadat we begrijpen wat u nodig heeft, geven we u een eerlijke prijsrange.",
     "tiers": [
-      { "name": "website", "from": "", "body": "een snelle, meertalige site die lang meegaat. alles begint hier.", "features": ["meertalig & mobile-first", "gebouwd voor snelheid en seo", "van u, om te houden"] },
-      { "name": "website + ai-assistent", "from": "", "body": "een website met een live assistent die uw klanten in hun eigen taal antwoordt, met een kostenplafond.", "features": ["alles uit website", "een eigen llm-assistent", "gelimiteerd & budgetveilig"] },
-      { "name": "custom ai", "from": "", "body": "documentassistenten, voorspellende modellen en automatisering, gebouwd voor een echte use case.", "features": ["rag over uw documenten", "ml & voorspellende analyse", "automatisering tussen uw tools"] }
+      {
+        "name": "website",
+        "from": "",
+        "body": "een snelle, meertalige site die lang meegaat. alles begint hier.",
+        "features": [
+          "meertalig & mobile-first",
+          "gebouwd voor snelheid en seo",
+          "van u, om te houden"
+        ]
+      },
+      {
+        "name": "website + ai-assistent",
+        "from": "",
+        "body": "een website met een live assistent die uw klanten in hun eigen taal antwoordt, met een kostenplafond.",
+        "features": [
+          "alles uit website",
+          "een eigen llm-assistent",
+          "gelimiteerd & budgetveilig"
+        ]
+      },
+      {
+        "name": "custom ai",
+        "from": "",
+        "body": "documentassistenten, voorspellende modellen en automatisering, gebouwd voor een echte use case.",
+        "features": [
+          "rag over uw documenten",
+          "ml & voorspellende analyse",
+          "automatisering tussen uw tools"
+        ]
+      }
     ],
     "footnote": "geen vaste prijzen. we bakenen elk project af na een gratis gesprek."
   },
@@ -114,49 +196,150 @@
     }
   },
   "legal": {
-    "updated": "Laatst bijgewerkt: 11 juli 2026",
+    "updated": "Laatst bijgewerkt: 18 juli 2026",
     "backHome": "← terug naar kaolin",
     "privacy": {
       "title": "privacyverklaring",
-      "meta": { "title": "privacyverklaring", "description": "welke persoonsgegevens we verzamelen, waarom, en uw rechten onder de AVG." },
+      "meta": {
+        "title": "privacyverklaring",
+        "description": "welke persoonsgegevens we verzamelen, waarom, en uw rechten onder de AVG."
+      },
       "intro": "Deze verklaring legt uit welke persoonsgegevens kaolin.studio verzamelt, waarom, en welke rechten u heeft onder de AVG (de Nederlandse uitvoering van de GDPR). We verzamelen niet meer gegevens dan deze site echt nodig heeft.",
       "sections": [
-        { "h": "Wie is verantwoordelijk", "p": ["Kaolin is een studio van twee personen (Amsterdam en Chișinău) en is de verwerkingsverantwoordelijke voor deze website. U kunt ons bereiken op hello@kaolin.studio.", "Ons KVK-nummer en ons gevestigde adres worden hier toegevoegd zodra de studio formeel is ingeschreven."] },
-        { "h": "Wat we verzamelen", "p": ["Contactformulier: wanneer u ons schrijft, ontvangen we de naam, het e-mailadres en het bericht dat u invult. Deze worden bezorgd via onze formulierdienst Formspree.", "AI-assistent: de berichten die u in de assistent op de pagina typt, worden naar onze AI-provider gestuurd om een antwoord te genereren. Voer geen gevoelige persoonsgegevens in. Het is een demo, geen beveiligd kanaal.", "Automatische gegevens: om misbruik van de assistent te voorkomen, wordt uw IP-adres kort gebruikt om limieten af te dwingen. We gebruiken ook privacyvriendelijke, geaggregeerde statistieken die geen profiel van u opbouwen."] },
-        { "h": "Waarom dat mag (grondslag)", "p": ["We verwerken uw contactgegevens om op uw vraag te reageren en om op uw verzoek stappen te zetten vóór een eventuele overeenkomst. Dat is ons gerechtvaardigd belang en, waar van toepassing, precontractuele noodzaak (art. 6(1)(b) en (f) AVG).", "Limieten en basisbeveiliging berusten op ons gerechtvaardigd belang om de site te beschermen (art. 6(1)(f)). Geaggregeerde statistieken berusten op dezelfde grondslag en plaatsen geen trackingcookies."] },
-        { "h": "Wie uw gegevens nog meer verwerkt", "p": ["We werken met een paar zorgvuldig gekozen verwerkers: Formspree (bezorging van het contactformulier), Vercel (hosting en cookieloze statistieken), Upstash (tijdelijke tellers voor limieten) en Groq (AI-model voor de assistent).", "Sommige van deze providers zijn buiten de Europese Economische Ruimte gevestigd. Waar dat zo is, worden doorgiftes gedekt door passende waarborgen zoals de modelcontractbepalingen van de Europese Commissie."] },
-        { "h": "Hoe lang we het bewaren", "p": ["We bewaren contactberichten alleen zo lang als nodig is om uw verzoek en eventuele opvolging af te handelen, en verwijderen ze daarna. Gesprekken met de assistent worden door ons niet langdurig bewaard, en gegevens voor limieten verlopen automatisch binnen een dag."] },
-        { "h": "Uw rechten", "p": ["Onder de AVG kunt u ons vragen om inzage, correctie, verwijdering of beperking van uw gegevens, bezwaar maken tegen verwerking, of ze in een overdraagbare vorm ontvangen. Mail hello@kaolin.studio om hiervan gebruik te maken; we reageren binnen de wettelijke termijn.", "U heeft ook het recht om een klacht in te dienen bij de Autoriteit Persoonsgegevens als u ontevreden bent over hoe wij met uw gegevens omgaan."] },
-        { "h": "Kinderen", "p": ["Deze site richt zich op bedrijven en niet op kinderen onder de 16. We verzamelen niet bewust hun gegevens."] },
-        { "h": "Wijzigingen", "p": ["We kunnen deze verklaring bijwerken naarmate de studio groeit of de wet verandert. De datum bovenaan toont de huidige versie."] }
+        {
+          "h": "Wie is verantwoordelijk",
+          "p": [
+            "Kaolin is een studio van twee personen (Amsterdam en Chișinău) en is de verwerkingsverantwoordelijke voor deze website. U kunt ons bereiken op hello@kaolin.studio.",
+            "Ons KVK-nummer en ons gevestigde adres worden hier toegevoegd zodra de studio formeel is ingeschreven."
+          ]
+        },
+        {
+          "h": "Wat we verzamelen",
+          "p": [
+            "Contactformulier: wanneer u ons schrijft, ontvangen we de naam, het e-mailadres en het bericht dat u invult. Deze worden bezorgd via onze formulierdienst Formspree.",
+            "Statistieken: indien ingeschakeld, gebruiken we privacyvriendelijke, geaggregeerde statistieken die paginaweergaven tellen zonder cookies en zonder een profiel van u op te bouwen."
+          ]
+        },
+        {
+          "h": "Waarom dat mag (grondslag)",
+          "p": [
+            "We verwerken uw contactgegevens om op uw vraag te reageren en om op uw verzoek stappen te zetten vóór een eventuele overeenkomst. Dat is ons gerechtvaardigd belang en, waar van toepassing, precontractuele noodzaak (art. 6(1)(b) en (f) AVG).",
+            "Eventuele geaggregeerde statistieken berusten op ons gerechtvaardigd belang om te begrijpen hoe de site wordt gebruikt, en plaatsen geen trackingcookies (art. 6(1)(f) AVG)."
+          ]
+        },
+        {
+          "h": "Wie uw gegevens nog meer verwerkt",
+          "p": [
+            "We werken met een paar zorgvuldig gekozen verwerkers: Formspree (bezorging van het contactformulier) en Vercel (hosting en, indien ingeschakeld, privacyvriendelijke cookieloze statistieken).",
+            "Sommige van deze providers zijn buiten de Europese Economische Ruimte gevestigd. Waar dat zo is, worden doorgiftes gedekt door passende waarborgen zoals de modelcontractbepalingen van de Europese Commissie."
+          ]
+        },
+        {
+          "h": "Hoe lang we het bewaren",
+          "p": [
+            "We bewaren contactberichten alleen zo lang als nodig is om uw verzoek en eventuele opvolging af te handelen, en verwijderen ze daarna."
+          ]
+        },
+        {
+          "h": "Uw rechten",
+          "p": [
+            "Onder de AVG kunt u ons vragen om inzage, correctie, verwijdering of beperking van uw gegevens, bezwaar maken tegen verwerking, of ze in een overdraagbare vorm ontvangen. Mail hello@kaolin.studio om hiervan gebruik te maken; we reageren binnen de wettelijke termijn.",
+            "U heeft ook het recht om een klacht in te dienen bij de Autoriteit Persoonsgegevens als u ontevreden bent over hoe wij met uw gegevens omgaan."
+          ]
+        },
+        {
+          "h": "Kinderen",
+          "p": [
+            "Deze site richt zich op bedrijven en niet op kinderen onder de 16. We verzamelen niet bewust hun gegevens."
+          ]
+        },
+        {
+          "h": "Wijzigingen",
+          "p": [
+            "We kunnen deze verklaring bijwerken naarmate de studio groeit of de wet verandert. De datum bovenaan toont de huidige versie."
+          ]
+        }
       ]
     },
     "terms": {
       "title": "gebruiksvoorwaarden",
-      "meta": { "title": "gebruiksvoorwaarden", "description": "de regels voor het gebruik van de kaolin.studio website en de ai-demo." },
+      "meta": {
+        "title": "gebruiksvoorwaarden",
+        "description": "de regels voor het gebruik van de kaolin.studio website."
+      },
       "intro": "Deze voorwaarden gelden voor uw gebruik van kaolin.studio. Door de site te gebruiken accepteert u ze. Dit is onze marketingwebsite; echt projectwerk valt onder een aparte schriftelijke overeenkomst.",
       "sections": [
-        { "h": "Over deze site", "p": ["kaolin.studio is een informatieve website voor Kaolin, een vader-zoonstudio voor AI-implementatie. Niets hier is een bindend aanbod; de scope, prijs en voorwaarden van een project worden apart en schriftelijk afgesproken."] },
-        { "h": "De AI-assistent", "p": ["De assistent op de pagina is een live demo, aangedreven door een taalmodel van een derde partij. De antwoorden worden automatisch gegenereerd en kunnen onvolledig of onjuist zijn. Beschouw ze als illustratief, niet als professioneel, juridisch, financieel of technisch advies.", "Voer geen vertrouwelijke of gevoelige persoonsgegevens in via de assistent, en vertrouw er niet op voor beslissingen zonder dit direct met ons te bevestigen."] },
-        { "h": "Intellectueel eigendom", "p": ["De tekst, het ontwerp en de code van deze site behoren toe aan Kaolin, tenzij anders vermeld. U mag de site bekijken en links delen, maar de inhoud niet kopiëren of hergebruiken voor eigen commerciële doeleinden zonder toestemming."] },
-        { "h": "Geen garanties", "p": ["De site wordt geleverd \"zoals hij is\", zonder enige garantie. We doen ons best om hem juist en beschikbaar te houden, maar kunnen niet garanderen dat hij altijd foutloos of ononderbroken werkt."] },
-        { "h": "Aansprakelijkheid", "p": ["Voor zover wettelijk toegestaan is Kaolin niet aansprakelijk voor indirecte of gevolgschade die voortvloeit uit uw gebruik van deze site of het vertrouwen op de assistent. Niets in deze voorwaarden beperkt aansprakelijkheid die onder Nederlands recht niet kan worden beperkt."] },
-        { "h": "Externe links", "p": ["Waar we naar andere sites linken, waaronder de demo's die we hebben gebouwd, zijn we niet verantwoordelijk voor hun inhoud of hun eigen privacybeleid."] },
-        { "h": "Toepasselijk recht", "p": ["Op deze voorwaarden is Nederlands recht van toepassing. Geschillen vallen onder de bevoegde rechter in Nederland."] },
-        { "h": "Contact", "p": ["Vragen over deze voorwaarden? Mail hello@kaolin.studio. Ons KVK-nummer en gevestigde adres worden hier toegevoegd zodra de studio formeel is ingeschreven."] }
+        {
+          "h": "Over deze site",
+          "p": [
+            "kaolin.studio is een informatieve website voor Kaolin, een vader-zoonstudio voor AI-implementatie. Niets hier is een bindend aanbod; de scope, prijs en voorwaarden van een project worden apart en schriftelijk afgesproken."
+          ]
+        },
+        {
+          "h": "Intellectueel eigendom",
+          "p": [
+            "De tekst, het ontwerp en de code van deze site behoren toe aan Kaolin, tenzij anders vermeld. U mag de site bekijken en links delen, maar de inhoud niet kopiëren of hergebruiken voor eigen commerciële doeleinden zonder toestemming."
+          ]
+        },
+        {
+          "h": "Geen garanties",
+          "p": [
+            "De site wordt geleverd \"zoals hij is\", zonder enige garantie. We doen ons best om hem juist en beschikbaar te houden, maar kunnen niet garanderen dat hij altijd foutloos of ononderbroken werkt."
+          ]
+        },
+        {
+          "h": "Aansprakelijkheid",
+          "p": [
+            "Voor zover wettelijk toegestaan is Kaolin niet aansprakelijk voor indirecte of gevolgschade die voortvloeit uit uw gebruik van deze site. Niets in deze voorwaarden beperkt aansprakelijkheid die onder Nederlands recht niet kan worden beperkt."
+          ]
+        },
+        {
+          "h": "Externe links",
+          "p": [
+            "Waar we naar andere sites linken, waaronder de demo's die we hebben gebouwd, zijn we niet verantwoordelijk voor hun inhoud of hun eigen privacybeleid."
+          ]
+        },
+        {
+          "h": "Toepasselijk recht",
+          "p": [
+            "Op deze voorwaarden is Nederlands recht van toepassing. Geschillen vallen onder de bevoegde rechter in Nederland."
+          ]
+        },
+        {
+          "h": "Contact",
+          "p": [
+            "Vragen over deze voorwaarden? Mail hello@kaolin.studio. Ons KVK-nummer en gevestigde adres worden hier toegevoegd zodra de studio formeel is ingeschreven."
+          ]
+        }
       ]
     },
     "cookies": {
-      "title": "cookies & ai-transparantie",
-      "meta": { "title": "cookies & ai-transparantie", "description": "wat we opslaan en hoe de ai-assistent op de site werkt." },
-      "intro": "We proberen deze site met zo min mogelijk tracking te draaien. Deze pagina legt uit welke kleine stukjes opslag we gebruiken en, net zo belangrijk, hoe de AI-assistent werkt.",
+      "title": "cookies",
+      "meta": {
+        "title": "cookies",
+        "description": "wat deze site in uw browser opslaat, en waarom."
+      },
+      "intro": "We proberen deze site met zo min mogelijk tracking te draaien. Deze pagina legt uit welke kleine stukjes opslag hij gebruikt.",
       "sections": [
-        { "h": "Onze aanpak van cookies", "p": ["We gebruiken geen advertentie- of cross-site trackingcookies, en we verkopen geen gegevens. De site werkt zonder dat u een muur van trackers hoeft te accepteren."] },
-        { "h": "Wat er echt wordt opgeslagen", "p": ["Een functionele voorkeur: wanneer u een taal kiest, kan die keuze worden onthouden (via een NEXT_LOCALE-cookie) zodat de site de volgende keer in de juiste taal opent. Die is strikt functioneel en bevat geen persoonlijk profiel.", "Statistieken: we gebruiken de privacyvriendelijke statistieken van Vercel, die paginaweergaven geaggregeerd meten, zonder cookies en zonder individuele bezoekers te identificeren."] },
-        { "h": "Opslag beheren", "p": ["U kunt cookies op elk moment wissen of blokkeren in uw browserinstellingen. Het blokkeren van de taalcookie betekent alleen dat de site uw taalvoorkeur tussen bezoeken niet onthoudt."] },
-        { "h": "Hoe de AI-assistent werkt", "p": ["De assistent wordt aangedreven door een groot taalmodel van een derde partij (via Groq). Wanneer u een bericht stuurt, wordt dat naar de provider verzonden om een antwoord te genereren, dat vervolgens naar uw scherm wordt gestreamd.", "Zoals alle van dat soort modellen kan hij \"hallucineren\", iets met stellige toon beweren dat toch onjuist is. Het is een demonstratie van wat we bouwen, geen gezaghebbende bron."] },
-        { "h": "Wat de assistent niet is", "p": ["Hij geeft geen professioneel, medisch, juridisch of financieel advies, en kan namens ons geen toezeggingen doen. Voor alles wat ertoe doet, bevestigt een echte persoon bij Kaolin het. U kunt ons altijd bereiken op hello@kaolin.studio."] },
-        { "h": "Uw gegevens in de assistent", "p": ["Stuur alleen informatie die u met een gerust hart deelt. We gebruiken uw gesprekken niet om modellen te trainen, en bewaren ze niet langdurig. Zie onze privacyverklaring voor het volledige beeld."] }
+        {
+          "h": "Onze aanpak van cookies",
+          "p": [
+            "We gebruiken geen advertentie- of cross-site trackingcookies, en we verkopen geen gegevens. De site werkt zonder dat u een muur van trackers hoeft te accepteren."
+          ]
+        },
+        {
+          "h": "Wat er echt wordt opgeslagen",
+          "p": [
+            "Een functionele voorkeur: wanneer u een taal kiest, kan die keuze worden onthouden (via een NEXT_LOCALE-cookie) zodat de site de volgende keer in de juiste taal opent. Die is strikt functioneel en bevat geen persoonlijk profiel.",
+            "Statistieken: indien ingeschakeld, gebruikt de site de privacyvriendelijke statistieken van Vercel, die paginaweergaven geaggregeerd meten, zonder cookies en zonder individuele bezoekers te identificeren."
+          ]
+        },
+        {
+          "h": "Opslag beheren",
+          "p": [
+            "U kunt cookies op elk moment wissen of blokkeren in uw browserinstellingen. Het blokkeren van de taalcookie betekent alleen dat de site uw taalvoorkeur tussen bezoeken niet onthoudt."
+          ]
+        }
       ]
     }
   },
@@ -166,6 +349,11 @@
     "kvk": "KVK-inschrijving loopt",
     "location": "Amsterdam × Chișinău",
     "rights": "© 2026 Kaolin. Alle rechten voorbehouden.",
-    "legal": { "label": "Juridisch", "privacy": "privacy", "terms": "voorwaarden", "cookies": "cookies & ai" }
+    "legal": {
+      "label": "Juridisch",
+      "privacy": "privacy",
+      "terms": "voorwaarden",
+      "cookies": "cookies"
+    }
   }
 }
