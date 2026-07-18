@@ -77,6 +77,12 @@ body {
   border-radius: 2px;
 }
 
+/* On the deep-green closing surfaces (contact, footer), a forest focus ring
+   would be invisible. Switch it to sand there so keyboard focus stays clear. */
+[data-dark] :where(a, button, input, textarea, select, summary, [tabindex]):focus-visible {
+  outline-color: var(--color-sand);
+}
+
 /* ---------- buttons ---------- */
 
 .button-primary,
