@@ -90,7 +90,8 @@ export default function ContactForm() {
             {status === "submitting" ? t("form.sending") : t("form.send")}
           </button>
           {status === "error" && (
-            <span role="alert" className="text-sm text-sand">
+            // Light gold (not sand): AA-legible on the forest surface.
+            <span role="alert" className="text-sm font-medium text-[#e6cf9a]">
               {t("form.error")}
             </span>
           )}

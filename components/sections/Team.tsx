@@ -30,7 +30,7 @@ export default async function Team() {
             <h3 className="mt-6 font-display text-4xl leading-none tracking-[-0.03em] text-ink sm:text-5xl">
               {person.name}
             </h3>
-            <div className="mt-3 text-xs font-bold uppercase tracking-[0.14em] text-moss">
+            <div className="mt-3 text-xs font-bold uppercase tracking-[0.14em] text-forest">
               {person.role}
             </div>
             <p className="mt-7 max-w-[42ch] text-muted">{person.body}</p>
