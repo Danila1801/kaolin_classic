@@ -1,0 +1,204 @@
+@import "tailwindcss";
+
+@theme {
+  /* Kaolin palette — emerald & cream. Matches the flagship brand exactly.
+     cream = page ground, ink = main text, moss = olive accent, sand = muted
+     gold (sparing), forest = primary action/accent, pine = deep closing
+     surfaces, mist = soft tint, muted = secondary text, card = raised surface. */
+  --color-cream: #f9f6f0;
+  --color-ink: #191b17;
+  --color-moss: #6c7844;
+  --color-sand: #c8a96a;
+  --color-forest: #134e43;
+  --color-pine: #0f3d34;
+  --color-mist: #e6f0e9;
+  --color-muted: #63665a;
+  --color-card: #fffdf8;
+
+  --text-base: 1rem;
+  --text-base--line-height: 1.6;
+  --text-lg: 1.4rem;
+  --text-lg--line-height: 1.5;
+  --text-xl: 1.4375rem;
+  --text-xl--line-height: 1.45;
+  --text-2xl: 1.875rem;
+  --text-2xl--line-height: 1.2;
+  --text-3xl: 2.5rem;
+  --text-3xl--line-height: 1.1;
+  --text-4xl: 3.25rem;
+  --text-4xl--line-height: 1.04;
+}
+
+@theme inline {
+  /* Fonts come from next/font in app/[locale]/layout.tsx. Bricolage Grotesque
+     has no Cyrillic, so /ru display text falls through to PT Sans; Montserrat
+     ships Cyrillic itself, so body text never needs a fallback. */
+  --font-sans: var(--font-montserrat), var(--font-pt-sans), system-ui, sans-serif;
+  --font-display: var(--font-bricolage), var(--font-pt-sans), system-ui, sans-serif;
+}
+
+:root {
+  /* Functional hairlines only. --rule for light surfaces, --rule-light for the
+     pine footer. No decorative borders anywhere else. */
+  --rule: color-mix(in srgb, var(--color-ink) 12%, transparent);
+  --rule-light: color-mix(in srgb, var(--color-cream) 22%, transparent);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 1.175rem;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Desktop reads at arm's length: nudge body copy up one step. Only affects text
+   without an explicit size class (headings, buttons, chrome keep their sizes). */
+@media (min-width: 1024px) {
+  body {
+    font-size: 1.4rem;
+  }
+}
+
+::selection {
+  background: var(--color-forest);
+  color: var(--color-cream);
+}
+
+:where(a, button, input, textarea, select, summary, [tabindex]):focus-visible {
+  outline: 2px solid var(--color-forest);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* ---------- buttons ---------- */
+
+.button-primary,
+.button-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1;
+  white-space: nowrap;
+  transition: background-color 180ms ease, color 180ms ease, transform 180ms ease;
+}
+
+.button-primary {
+  padding: 1.05rem 1.9rem;
+  border-radius: 999px;
+  background: var(--color-forest);
+  color: var(--color-cream);
+}
+
+.button-primary:hover {
+  background: var(--color-pine);
+  transform: translateY(-2px);
+}
+
+.button-secondary {
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid var(--color-ink);
+  color: var(--color-ink);
+}
+
+.button-secondary:hover {
+  color: var(--color-forest);
+  border-color: var(--color-forest);
+}
+
+/* ---------- hero ---------- */
+
+.hero-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  color: var(--color-muted);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.hero-kicker-dot {
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 50%;
+  background: var(--color-moss);
+}
+
+.hero-title {
+  max-width: 16ch;
+  color: var(--color-ink);
+  font-family: var(--font-display);
+  font-size: clamp(3rem, 6.5vw, 6.6rem);
+  font-weight: 500;
+  font-variation-settings: "opsz" 96;
+  letter-spacing: -0.03em;
+  line-height: 0.98;
+  text-wrap: balance;
+}
+
+.hero-title em {
+  font-style: normal;
+  color: var(--color-forest);
+}
+
+.hero-copy {
+  max-width: 40rem;
+  margin-top: clamp(1.5rem, 3vw, 2.4rem);
+  color: var(--color-muted);
+  font-size: clamp(1.35rem, 2vw, 1.7rem);
+  line-height: 1.5;
+}
+
+/* ---------- section primitives ---------- */
+
+.section-marker {
+  color: var(--color-forest);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.section-title {
+  max-width: 18ch;
+  color: var(--color-ink);
+  font-family: var(--font-display);
+  font-size: clamp(2.3rem, 4.5vw, 4.2rem);
+  font-weight: 500;
+  font-variation-settings: "opsz" 72;
+  letter-spacing: -0.02em;
+  line-height: 1.03;
+}
+
+.section-intro {
+  max-width: 44rem;
+  margin-top: 1.4rem;
+  color: var(--color-muted);
+  font-size: clamp(1.3rem, 1.8vw, 1.6rem);
+  line-height: 1.5;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
