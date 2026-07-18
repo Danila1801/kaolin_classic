@@ -17,11 +17,14 @@ const bricolage = Bricolage_Grotesque({
 });
 
 // Montserrat is the body face (owner's pick). It ships Cyrillic, so /ru body
-// text never needs a fallback.
+// text never needs a fallback. preload: false keeps its three subset files off
+// the critical path so the display font (the LCP heading) loads first; the
+// metric-matched fallback makes the brief body swap unnoticeable.
 const montserrat = Montserrat({
   subsets: ["latin", "latin-ext", "cyrillic"],
   variable: "--font-montserrat",
   display: "swap",
+  preload: false,
 });
 
 // Cyrillic fallback for /ru display type — Bricolage Grotesque has no
